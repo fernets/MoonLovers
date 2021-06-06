@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style/chat.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html"><span>MoonLovers</span></a>
+        </div>
+        <ul class="nav_list">
+            <li><a href="messages.html">Сообщения</a></li>
+            <li><a href="search.html">Поиск</a></li>
+            <li><a href="profile.html"><img src="img/person.png" alt="person"></a></li>
+        </ul>
+        <select name="Language" id="lang">
+            <option selected value="rus">RU</option>
+            <option value="eng">ENG</option>
+        </select>
+        <div id="burger" class="burger-btn">
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-block">
+            <div class="main_header">
+                <div class="item">
+                    <img src="img/girl1.png" alt="">
+                    <p>Настя, 19 лет в сети <span class="circle"></span></p>
+                </div>
+            </div>
+            <div class="main-info">
+                <div class="chat_container">
+                    <div class="message">
+                        <p>Consequuntur non obcaecati quibusdam porro, enim dolor!</p>
+                        <span class="time">11:02</span>
+                    </div>
+                    <div class="message">
+                        <span class="time">11:04</span>
+                        <p>Consequuntur non obcaecati quibusdam porro, enim dolor!</p>
+                        
+                    </div>
+                    <div class="message">
+                        <p>Consequuntur non obcaecati quibusdam porro, enim dolor!</p>
+                        <span class="time">11:04</span>
+                    </div>
+                    <div class="message">
+                        <span class="time">11:05</span>
+                        <p>Consequuntur non obcaecati quibusdam porro, enim dolor!</p>
+                        
+                    </div>
+                    <div class="area_container">
+                        <textarea></textarea>
+                        <img id="smile" src="img/smile.png" alt="">
+                        <img id="send" src="img/send.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo-text">
+            <p>MoonLovers</p>
+            <p>сайт знакомств</p>
+        </div>
+        <ul class="footer_list">
+            <li><a href="#">О проекте</a></li>
+            <li><a href="#">Поддержка</a></li>
+            <li><a href="policy.html">Советы</a></li>
+            <li><a class="contact" href="#">Контакты</a></li>
+            <li><a href="#">Правила оплаты</a></li>
+            <li><a href="policy.html">Политика приватности</a></li>
+        </ul>
+        <div class="contacts contact">
+            Контакты
+        </div>
+        <div class="card">
+            <img src="img/Visa.png" alt="">
+            <img src="img/Mastercard.png" alt="">
+        </div>
+    </footer>
+
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Контакты</h2>
+          </div>
+          <div class="modal-body">
+            <input type="text" placeholder="nashsayt@4toto.com"> <br>
+            <input type="text" placeholder="+38-011-222-3344"> <br>
+          </div>
+        </div>
+      </div>
+
+    <div id="myModal5" class="modal menu">
+        <div class="modal-content">
+          <div class="modal-body">
+            <a href="messages.html"><p>Сообщения</p></a>
+            <hr>
+            <a href="search.html"><p>Поиск</p></a>
+            <hr>
+            <a href="profile.html"><p>Профиль</p></a>
+            <a href="policy.html"><p>Советы</p></a>
+            <p class="contact">Контакты</p>
+          </div>
+        </div>
+      </div>
+
+    <script src="scripts/script2.js"></script>
+</body>
+</html>

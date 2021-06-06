@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style/registration.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html"><span>MoonLovers</span></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_info">
+            <h3>Завершение регистрации</h3>
+            <h2>Основная информация</h2>
+            <form action="#">
+                <div class="item">
+                    <label for="country">Страна:</label>
+                    <select name="country" id="country">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="city">Город:</label>
+                    <select name="city" id="city">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="date">Дата рождения:</label>
+                    <select name="date" id="date">
+                        <option value="ua">Украина</option>
+                    </select>
+                    <select name="date" id="date">
+                        <option value="ua">Украина</option>
+                    </select>
+                    <select name="date" id="date">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="find">Я ищу женщину в возрасте:</label>
+                    <input name="find" type="number" min='0' max='150' step='1'  id='find'>
+                    <span> - </span>
+                    <input name="find" type="number" min='0' max='150' step='1'  id='find'>
+                </div>
+                <div class="item">
+                    <label for="education">Образование:</label>
+                    <select name="education" id="education">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="prof">Профессиональный статус:</label>
+                    <select name="prof" id="prof">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="interes">Интересы:</label>
+                    <select name="interes" id="interes">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="lang">Знание языков:</label>
+                    <div class="check_block">
+                        <input type="checkbox"> <span>Українська</span> <br>
+                        <input type="checkbox"> <span>Русский</span><br>
+                        <input type="checkbox"> <span>English</span><br>
+                        <input type="checkbox"> <span>Other</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="family">Семейное положение:</label>
+                    <select name="family" id="family">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="child">Дети:</label>
+                    <select name="child" id="child">
+                        <option value="ua">Украина</option>
+                    </select>
+                    <br>
+                    <label for="height">Рост:</label>
+                    <div class="height_block">
+                        <input id="height" type="range" min="0" max="100" step="1" value="50">
+                    <input name="find" type="number" min='0' max='150' step='1'  id='heigth_p'> <span>см</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="weight">Вес:</label>
+                    <div class="height_block">
+                        <input id="weight" type="range" min="0" max="100" step="1" value="50">
+                    <input name="find" type="number" min='0' max='150' step='1'  id='heigth_p'> <span>см</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="smoke">Курение:</label>
+                    <select name="smoke" id="smoke">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="alco">Алкоголь:</label>
+                    <select name="alco" id="alco">
+                        <option value="ua">Украина</option>
+                    </select>
+                </div>
+
+
+                <div class="btn_block">
+                    <a href="search.html">Подтверить</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo-text">
+            <p>MoonLovers</p>
+            <p>сайт знакомств</p>
+        </div>
+        <ul class="footer_list">
+            <li><a href="#">О проекте</a></li>
+            <li><a href="#">Поддержка</a></li>
+            <li><a href="policy.html">Советы</a></li>
+            <li><a class="contact" href="#">Контакты</a></li>
+            <li><a href="#">Правила оплаты</a></li>
+            <li><a href="policy.html">Политика приватности</a></li>
+        </ul>
+        <div class="contacts contact">
+            Контакты
+        </div>
+        <div class="card">
+            <img src="img/Visa.png" alt="">
+            <img src="img/Mastercard.png" alt="">
+        </div>
+    </footer>
+
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Контакты</h2>
+          </div>
+          <div class="modal-body">
+            <input type="text" placeholder="nashsayt@4toto.com"> <br>
+            <input type="text" placeholder="+38-011-222-3344"> <br>
+          </div>
+        </div>
+      </div>
+
+      <script src="scripts/script3.js"></script>
+</body>
+</html>

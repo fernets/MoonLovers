@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style/profile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html"><span>MoonLovers</span></a>
+        </div>
+        <ul class="nav_list">
+            <li><a href="messages.html">Сообщения</a></li>
+            <li><a href="search.html">Поиск</a></li>
+            <li><a href="profile.html"><img src="img/person.png" alt="person"></a></li>
+        </ul>
+        <select name="Language" id="lang">
+            <option selected value="rus">RU</option>
+            <option value="eng">ENG</option>
+        </select>
+        <div id="burger" class="burger-btn">
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_block">
+            <div class="main_content">
+                <div class="main_header">
+                    <div class="left">
+                        <img src="img/girl1.png" alt="">
+                    </div>
+                    <div class="right">
+                        <p>Имя</p>
+                        <p>23 года - Киев - лев</p>
+                        <div class="gallery">
+                            <img src="img/girl1.png" alt="">
+                            <img src="img/girl1.png" alt="">
+                            <img src="img/girl1.png" alt="">
+                        </div>
+                        <div class="edit_block">
+                            <img src="img/edit.png" alt="" id="edit">
+                            <a href="registration.html"><p>Редактировать профиль</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="info_title">
+                        <h1>Обо мне</h1>
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p>Семейное положение</p>
+                    <p>В активном поиске</p><br>
+                    <p>Рост</p>
+                    <p>161 см</p><br>
+                    <p>Вес</p>
+                    <p>52 кг</p><br>
+                    <p>Дата рождения</p>
+                    <p>20.11.1999</p><br>
+                    <p>Интересы</p>
+                    <p>Текст</p><br>
+                    <p>Отношение к курению</p>
+                    <p>Текст</p><br>
+                    <p>Отношение к алкоголю</p>
+                    <p>Текст</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="logo-text">
+            <p>MoonLovers</p>
+            <p>сайт знакомств</p>
+        </div>
+        <ul class="footer_list">
+            <li><a href="#">О проекте</a></li>
+            <li><a href="#">Поддержка</a></li>
+            <li><a href="policy.html">Советы</a></li>
+            <li><a class="contact" href="#">Контакты</a></li>
+            <li><a href="#">Правила оплаты</a></li>
+            <li><a href="policy.html">Политика приватности</a></li>
+        </ul>
+        <div class="contacts contact">
+            Контакты
+        </div>
+        <div class="card">
+            <img src="img/Visa.png" alt="">
+            <img src="img/Mastercard.png" alt="">
+        </div>
+    </footer>
+
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Контакты</h2>
+          </div>
+          <div class="modal-body">
+            <input type="text" placeholder="nashsayt@4toto.com"> <br>
+            <input type="text" placeholder="+38-011-222-3344"> <br>
+          </div>
+        </div>
+      </div>
+
+    <div id="myModal5" class="modal menu">
+        <div class="modal-content">
+          <div class="modal-body">
+            <a href="messages.html"><p>Сообщения</p></a>
+            <hr>
+            <a href="search.html"><p>Поиск</p></a>
+            <hr>
+            <a href="profile.html"><p>Профиль</p></a>
+            <a href="policy.html"><p>Советы</p></a>
+            <p class="contact">Контакты</p>
+          </div>
+        </div>
+      </div>
+
+    <script src="scripts/script2.js"></script>
+</body>
+</html>
